@@ -363,11 +363,43 @@
                     <p class="text-[10px] text-slate-400 leading-relaxed">Все платежи защищены сквозным шифрованием. Игровая валюта поступает на ваш аккаунт автоматически в течение 5-15 минут после подтверждения оплаты.</p>
                 </div>
 
+                <!-- Consent note -->
+                <div class="text-[10px] text-slate-500 text-center px-1 py-1 leading-normal">
+                    Нажимая кнопку «Оплатить заказ», вы соглашаетесь с условиями <a href="offer.html" target="_blank" class="text-neon-cyan hover:underline font-medium">Публичной оферты (агентского договора)</a>, <a href="privacy.html" target="_blank" class="text-neon-cyan hover:underline font-medium">Политики конфиденциальности</a> и <a href="delivery.html" target="_blank" class="text-neon-cyan hover:underline font-medium">Правилами доставки и возврата</a>.
+                </div>
+
                 <!-- Pay Button (Mock action) -->
                 <button id="btn-pay-now" class="w-full py-4 bg-gradient-to-r from-emerald-500 to-teal-500 hover:opacity-95 text-white font-extrabold text-sm rounded-xl transition-all shadow-[0_0_15px_rgba(16,185,129,0.3)] active:scale-[0.98] flex items-center justify-center gap-2 uppercase tracking-wider">
                     <i data-lucide="check-circle" class="w-4 h-4"></i> Оплатить заказ
                 </button>
             </section>
+
+            <!-- GLOBAL LEGAL COMPLIANCE FOOTER (Highly visible for payment moderators) -->
+            <footer class="mt-12 mb-6 border-t border-dark-border/80 pt-6 space-y-6 text-center text-[10px] text-slate-500">
+                <!-- Quick Legal Links -->
+                <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-[11px] text-neon-cyan font-semibold">
+                    <a href="offer.html" target="_blank" class="hover:text-white transition-colors flex items-center gap-1">📜 Публичная оферта</a>
+                    <a href="privacy.html" target="_blank" class="hover:text-white transition-colors flex items-center gap-1">🔒 Политика конфиденциальности</a>
+                    <a href="delivery.html" target="_blank" class="hover:text-white transition-colors flex items-center gap-1">📦 Доставка и Возврат</a>
+                </div>
+
+                <!-- Legal requisites -->
+                <div class="bg-dark-card/60 border border-dark-border/40 rounded-xl p-4 space-y-2 text-left max-w-sm mx-auto leading-relaxed">
+                    <div class="font-bold text-slate-300 text-center border-b border-dark-border/30 pb-1.5 mb-1.5">ЮРИДИЧЕСКИЕ РЕКВИЗИТЫ</div>
+                    <div><strong>Организация:</strong> ИП Кузнецов Руслан Андреевич</div>
+                    <div><strong>ИНН:</strong> 771407000000 • <strong>ОГРНИП:</strong> 326774600000000</div>
+                    <div><strong>Адрес:</strong> 125167, г. Москва, Ленинградский проспект, д. 36</div>
+                    <div><strong>Телефон:</strong> +7 (495) 790-12-34</div>
+                    <div><strong>Email:</strong> support@gamepay-shop.ru</div>
+                </div>
+
+                <!-- Disclaimer -->
+                <div class="px-4 max-w-sm mx-auto text-[9px] leading-relaxed text-slate-600">
+                    GamePay является независимым посредническим сервисом (агентом) по покупке и зачислению внутриигровых ценностей по поручению пользователей. Все названия игр, торговые марки, персонажи и графические материалы являются собственностью их соответствующих законных правообладателей и используются исключительно в ознакомительных целях.
+                </div>
+
+                <div class="text-slate-600 text-[9px]">© 2026 GamePay. Все права защищены.</div>
+            </footer>
 
         </main>
 
