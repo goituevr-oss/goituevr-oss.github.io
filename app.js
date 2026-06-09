@@ -597,10 +597,10 @@ function setupEventListeners() {
     // Select first payment method (SBP) by default
     paymentCards[0].classList.add('active');
 
-    // Pay Now Button (Redirect to Lava.ru)
+    // Pay Now Button (Redirect to FreeKassa)
     document.getElementById('btn-pay-now').addEventListener('click', () => {
-        const lavaUrl = 'https://business.lava.ru/1a052828-a793-432c-8206-704522ddc3ab/';
-        window.open(lavaUrl, '_blank');
+        const paymentUrl = 'https://freekassa.ru/';
+        window.open(paymentUrl, '_blank');
         
         // Update Success Modal details
         let finalItemText = '';
